@@ -1,0 +1,29 @@
+#azul{
+    color: blue;
+    background-color: cadetblue;
+    font-size: 30px;
+}
+#rojo{
+    color: red;
+    background-color: cadetblue;
+    font-size: 30px;
+    font-style: normal;
+}
+#amarillo{
+    color: yellow;
+    background-color: cadetblue;
+    font-size: 30px;
+    font-style: normal;
+}
+#negro{
+    color: black;
+    background-color:cadetblue;
+    font-size: 30px;
+    font-style: normal;
+}
+#verde{
+    color: green;
+    background-color: cadetblue;
+    font-size: 30px;
+    font-style: normal;
+}
