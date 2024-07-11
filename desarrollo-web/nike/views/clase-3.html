@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/544876a7ca.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina web</title>
@@ -10,44 +11,118 @@
 
 <body>
     <header>
-        <img src="/desarrollo-web/nike/public/images/nike.png" alt="Nike Logo">
+        <a href=""><img class="logo" src="/desarrollo-web/nike/public/images/nike-logo-18-1024x1024.png" alt="Nike Logo"></a>
         <ul>
-            <li>Soporte</li>
-            <li>Mas vendidos</li>
-            <li>Nueva coleccion</li>
+            <li><a class="li-header" href="#ofertas">Ofertas</a></li>
+            <li><a class="li-header" href="#mas-vendidos">Mas vendidos</a></li>
+            <li><a class="li-header" href="#nueva-coleccion">Nueva coleccion</a></li>
         </ul>
-        <input type="text" placeholder="Buscar...">
-        
+
+        <form action="">
+            <input type="text" placeholder="Buscar...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+
     </header>
     <main>
-        <article>
-            <img src="../public/images/zapato1.jfif" alt="Kyrie 5">
-            <h2>Kyrie 5</h2>
-            <p>40$</p>
-        </article>
+        <h2 id="ofertas">Ofertas</h2>
+        <section >
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="../public/images/zapato1.jfif" alt="Kyrie 5">
+                    <h3>Kyrie 5</h3>
+                    <p>40$</p>
+                </a>
+            </article>
 
-        <article>
-            <img src="../public/images/air force 1.jfif" alt="Air Force 1">
-            <h2>Air Force 1</h2>
-            <p>60$</p>
-        </article>
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="../public/images/air force 1.jfif" alt="Air Force 1">
+                    <h3>Air Force 1</h3>
+                    <p>60$</p>
+                </a>
+            </article>
 
-        <article>
-            <img src="../public/images/Air Max.jpg" alt="Air Max">
-            <h2>Air Max</h2>
-            <p>50$</p>
-        </article>
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="../public/images/Air Max.jpg" alt="Air Max">
+                    <h3>Air Max</h3>
+                    <p>50$</p>
+                </a>
+            </article>
+        </section>
+
+        <h2 id="mas-vendidos">Mas Vendidos</h2>
+        <section >
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="/desarrollo-web/nike/public/images/air force uno.jfif" alt="air force 1">
+                    <h3>Air Force 1</h3>
+                    <p>70$</p>
+                </a>
+            </article>
+
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="/desarrollo-web/nike/public/images/air max 90.jfif" alt="air max 90">
+                    <h3>Air Force 2</h3>
+                    <p>80$</p>
+                </a>
+            </article>
+
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="/desarrollo-web/nike/public/images/air max 2.jfif" alt="air max 2">
+                    <h3>Air Max 2</h3>
+                    <p>85$</p>
+                </a>
+            </article>
+        </section>
+
+
+        <h2 id="nueva-coleccion">Nueva Coleccion</h2>
+        <section >
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="/desarrollo-web/nike/public/images/Air force 1 lx.jfif" alt="air force 1 lx">
+                    <h3>Air Force 1 Lx</h3>
+                    <p>120$</p>
+                </a>
+
+            </article>
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="/desarrollo-web/nike/public/images/Nike bubble.webp" alt="nike bubble">
+                    <h3>Nike bubble</h3>
+                    <p>100$</p>
+                </a>
+            </article>
+            <article>
+                <a class="article-main" href="">
+                    <img class="img-1" src="/desarrollo-web/nike/public/images/air max sc.jfif" alt="air max sc">
+                    <h3>Air Max CS</h3>
+                    <p>110$</p>
+                </a>
+            </article>
+        </section>
+
+
     </main>
 
     <footer>
-        <img src="../public/images/nike.png" alt="Nike Logo">
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>X</li>
-        </ul>
+        <div>
+            <a href=""> <img class="logo" src="../public/images/nike-logo-18-1024x1024.png" alt="Nike Logo"></a>
+            <ul id="footer-ul">
+                <li><a class="li-header footer" href="">Facebook</a></li>
+                <li><a class="li-header footer" href="">Instagram</a></li>
+                <li><a class="li-header footer" href="">X</a></li>
+            </ul>
+        </div>
+
         <p>© 2024 Nike, Inc. Todos los derechos reservados</p>
     </footer>
-   
+
 </body>
+
 </html>
