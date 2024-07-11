@@ -60,7 +60,7 @@ button {
     box-shadow: 0 5px 10px black;
     padding: 5px;
     border-radius: 10px;
-    background-color: white;
+    background-color: black;
 }
 
 section {
@@ -133,7 +133,6 @@ margin-bottom: 10px;
 article {
     background-color: #0055b3 ;
     display: flex;
-    border: 1px solid black;
     border-radius: 10px;
     display: inline-block;
     padding: 10px;
